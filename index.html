@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body{
+            background-color: rgb(235, 212, 183);
+        }
+        h1 {
+         color: rgb(0, 38, 255);
+         font-size: 50px;
+         text-align: center;
+         text-underline-position: below;
+        }
+        
+        table,th,td{
+         border: 2px solid rgb(224, 10, 10);
+         border-collapse: collapse;
+         border-spacing: 60px;         
+        }
+
+        table{
+            margin-left: auto;
+            margin-right: auto;   
+            width: 55%;
+            margin-top: 70px;
+
+           
+        }
+
+        th, td {
+            background-color: rgb(199, 156, 156);            
+            border-style: solid;
+            border-color: red;
+            text-align: left;            
+            padding: 5px;
+            font-size: x-large;
+         }
+
+         th {
+            text-align:center;
+            
+    </style>
+</head>
+
+<body>
+    <h1><u>Health Tracker in different phases</u></h1>
+    <table border="1">
+        <tr>
+            <th>State of Health</th>
+            <th colspan="2">Fasting Value</th>
+            <th>After Remaining</th>
+                                
+        </tr>
+        <tr>            
+            <td></td>
+            <th>Minimum</th>
+            <th>Normal</th>
+            <th>2 hours of Eating</th>
+                                   
+        </tr>
+        <tr>            
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>            
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>            
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>Not Applicable</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+
+</html>
